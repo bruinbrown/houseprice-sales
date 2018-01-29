@@ -4,8 +4,8 @@
 
 #r @"packages/build/FAKE/tools/FakeLib.dll"
 #load @"src/scripts/importdata.fsx"
-#load @".paket\load\netstandard2.0\Build\build.group.fsx"
-#load @"paket-files\build\CompositionalIT\fshelpers\src\FsHelpers\ArmHelper\ArmHelper.fs"
+#load @".paket/load/netstandard2.0/Build/build.group.fsx"
+#load @"paket-files/build/CompositionalIT/fshelpers/src/FsHelpers/ArmHelper/ArmHelper.fs"
 
 open Cit.Helpers.Arm
 open Cit.Helpers.Arm.Parameters
